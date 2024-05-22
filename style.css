@@ -1,0 +1,98 @@
+* {
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-user-select: none;
+}
+
+html {
+	--brand: #BD2626;
+	--brand-complementary: #26BDBD;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+	background: black;
+	color: #AAA;
+}
+
+#canvas, #externalCanvas {
+	height: 100vh;
+	left: 50%;
+	transform: translateX(-50%);
+	object-fit: contain;
+	position: fixed;
+	z-index: 1;
+	image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+	font-smooth: never;
+	-webkit-font-smoothing : none;
+}
+
+#canvas {
+	z-index: 1;
+}
+
+#externalCanvas {
+	z-index: -1;
+}
+
+.overlay {
+	position: fixed;
+	z-index: 999;
+}
+
+.videoContainer {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.video {
+	height: 100vh;
+}
+
+.videoButton {
+	position: fixed;
+	bottom: 0;
+	width: 10%;
+	height: auto;
+}
+
+.videoSkipButton {
+	right: 0;
+	cursor: pointer;
+}
+
+.videoMuteButton {
+	left: 0;
+}
+
+.controlOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.enemy, .player {
+	position: absolute;
+	background: #DDD;
+	border-radius: 4px;
+	font-size: 4vh;
+	padding: 3px 6px;
+	font-family: "Roboto Mono", monospace;
+}
+
+.player {
+	color: var(--brand);
+}
+
+.enemy {
+	color: var(--brand-complementary);
+}

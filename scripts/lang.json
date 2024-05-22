@@ -1,0 +1,48 @@
+{
+  "alphabet": "abcdefghijklmnopqrstuvwxyz",
+  "tutorial": [
+    "To defeat a rain cloud type its corresponding word\non the keyboard.",
+    "Some rain clouds will have sentences with spaces\ninstead of words."
+  ],
+  "readySetGo": ["Ready", "Set", "Go!"],
+  "words": {
+    "healthBalloon": [
+      "heart",
+      "health",
+      "heal",
+      "help",
+      "h"
+    ],
+    "umbrellaShield": [
+      "umbrella",
+      "shield",
+      "parasol",
+      "s"
+    ],
+    "tutorial": [
+      "wind",
+      "rain cloud"
+    ],
+    "levels": [
+      {
+        "enemy": [
+          "shower",
+          "downpour",
+          "storm",
+          "climate",
+          "hurricane",
+          "humidity",
+          "cold front",
+          "inclement",
+          "forecast",
+          "cold",
+          "rain shadow",
+          "tornado"
+        ],
+        "boss": [
+          "please go away"
+        ]
+      }
+    ]
+  }
+}

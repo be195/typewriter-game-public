@@ -1,0 +1,8 @@
+{
+  "ty!": "https://github.com/Falano/kritaSpritesheetManager",
+  "fps": 16,
+  "spritesPerY": 3,
+  "possibleY": 3,
+  "spritesLastY": 2,
+  "resolution": [ 106, 106 ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Mali:wght@500&display=swap">
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<div class="overlay"></div>
+
+	<noscript>
+		This application will not work if:
+		<ul>
+			<li>you have JavaScript code execution disabled;</li>
+			<li>you're using an outdated browser.</li>
+		</ul>
+	</noscript>
+
+	<canvas id="canvas" width="1280" height="720">
+		You need a modern browser to run this application.
+	</canvas>
+
+	<script>
+		window.GLOBAL_ENV = {
+			DEBUG: true,
+			SENTRY_DSN: 'https://29d9676d279f4d5b8bd7f3d09b55cd21@sentry.litterbin.dev/3'
+		};
+	</script>
+	<script
+		src="https://browser.sentry-cdn.com/6.11.0/bundle.min.js"
+		integrity="sha384-c+8PXtRnYfCKsSEvgtDqFeJvhjltkNLIUB1vcWKW4EleABoS4jh87UrE+1nQXg+g"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://browser.sentry-cdn.com/6.11.0/bundle.tracing.min.js"
+		integrity="sha384-XuDodOP4mgLWA8eRlqZJWs+mtmznHF6ES/nOotK0fE7SHjj0Ec3YMVIzjh5ytsKH"
+		crossorigin="anonymous"
+	></script>
+	<script src="scripts/app.js"></script>
+</body>
+
+</html>
